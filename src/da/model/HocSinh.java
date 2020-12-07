@@ -33,13 +33,13 @@ public class HocSinh {
     private String dvctBo;
     private String dvctMe;
     private String nguoiDamHo;
-    private Boolean trangThai;
+    private boolean trangThai;
     private String anh;
 
     public HocSinh() {
     }
 
-    public HocSinh(UUID iD, String maHS, String hoTen, Boolean gioiTinh, Date ngaySinh, String diaChi, String dienThoai, String danToc, String tonGiao, Date ngayVD, String noiSinh, String cmND, UUID lop_id, String hotenBo, String hotenMe, String dienThoaiBo, String dienThoaiMe, String dvctBo, String dvctMe, String nguoiDamHo, Boolean trangThai, String anh) {
+    public HocSinh(UUID iD, String maHS, String hoTen, Boolean gioiTinh, Date ngaySinh, String diaChi, String dienThoai, String danToc, String tonGiao, Date ngayVD, String noiSinh, String cmND, UUID lop_id, String hotenBo, String hotenMe, String dienThoaiBo, String dienThoaiMe, String dvctBo, String dvctMe, String nguoiDamHo, boolean trangThai, String anh) {
         this.iD = iD;
         this.maHS = maHS;
         this.hoTen = hoTen;
@@ -160,11 +160,11 @@ public class HocSinh {
         this.cmND = cmND;
     }
 
-    public UUID getLop_id() {
+    public UUID getLop() {
         return lop_id;
     }
 
-    public void setLop_id(UUID lop_id) {
+    public void setLop(UUID lop_id) {
         this.lop_id = lop_id;
     }
 
@@ -224,11 +224,11 @@ public class HocSinh {
         this.nguoiDamHo = nguoiDamHo;
     }
 
-    public Boolean getTrangThai() {
+    public boolean isTrangThai() {
         return trangThai;
     }
 
-    public void setTrangThai(Boolean trangThai) {
+    public void setTrangThai(boolean trangThai) {
         this.trangThai = trangThai;
     }
 
@@ -239,8 +239,6 @@ public class HocSinh {
     public void setAnh(String anh) {
         this.anh = anh;
     }
-
-    
 
    
     
